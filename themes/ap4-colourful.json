@@ -2428,7 +2428,7 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#F700FF"
+				"foreground": "#736FEE"
 			}
 		},
 		{
@@ -2802,7 +2802,7 @@
 		{
 			"scope": "meta.function.decorator.python",
 			"settings": {
-				"foreground": "#FFA600"
+				"foreground": "#d76915"
 			}
 		},
 		{
@@ -3395,6 +3395,12 @@
 			"scope": "support.function.magic.python",
 			"settings": {
 				"foreground": "#FFA600"
+			}
+		},
+		{
+			"scope": "entity.name.function.decorator.python",
+			"settings": {
+				"foreground": "#d76915"
 			}
 		},
 		{
