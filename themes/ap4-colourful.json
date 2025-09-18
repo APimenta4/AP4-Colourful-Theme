@@ -3371,12 +3371,6 @@
 			}
 		},
 		{
-			"scope": "keyword.control.import.python,keyword.control.flow.python",
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"scope": "markup.italic.markdown",
 			"settings": {
 				"fontStyle": "italic"
@@ -3394,7 +3388,7 @@
 		{
 			"scope": "support.function.magic.python",
 			"settings": {
-				"foreground": "#FFA600"
+				"foreground": "#FF7300"
 			}
 		},
 		{
