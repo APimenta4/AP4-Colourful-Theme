@@ -2802,7 +2802,7 @@
 		{
 			"scope": "meta.function.decorator.python",
 			"settings": {
-				"foreground": "#d76915"
+				"foreground": "#FF7300"
 			}
 		},
 		{
@@ -3335,7 +3335,6 @@
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
 				"foreground": "#D55959",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -3394,13 +3393,19 @@
 		{
 			"scope": "entity.name.function.decorator.python",
 			"settings": {
-				"foreground": "#d76915"
+				"foreground": "#FF7300"
 			}
 		},
 		{
 			"scope": "ref.matchtext",
 			"settings": {
 				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "variable.parameter.function-call.python",
+			"settings": {
+				"fontStyle": ""
 			}
 		}
 	],
