@@ -2,7 +2,7 @@
   "name": "ap4-colourful-theme",
   "displayName": "AP4 Colourful Theme",
   "description": "A Colourful theme based on the VS Code's default dark theme, but adapted to my liking",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.101.0"
   },
