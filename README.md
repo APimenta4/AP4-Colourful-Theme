@@ -1,11 +1,11 @@
-## AP4 Colourful Theme
+# AP4 Colourful Theme
 
-GitHub repository to maintain my own VS Code theme
+![icon](icon.png)
 
-Mostly for personal usage, however, feel free to download and use it in your own IDE
+GitHub repository to maintain my own VS Code theme.
 
-For easier installation, [install the extension through VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=ap4.ap4-colourful-theme)
+Mostly for personal usage, however, feel free to download and use it in your own VSCode setup.
 
-## Preview (Python)
+For an easier time installing the theme, [install it through the VSCode Marketplace extension](https://marketplace.visualstudio.com/items?itemName=ap4.ap4-colourful-theme).
 
-![Python Preview](preview/python.png)
+Optimized for Python/TypeScript
