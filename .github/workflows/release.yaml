@@ -14,5 +14,5 @@ jobs:
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
-          baseContentUrl: https://github.com/APimenta4/AP4-Colourful-Theme/blob/main
-          baseImagesUrl: https://github.com/APimenta4/AP4-Colourful-Theme/blob/main
+          baseContentUrl: https://raw.githubusercontent.com/APimenta4/AP4-Colourful-Theme/main/
+          baseImagesUrl: https://raw.githubusercontent.com/APimenta4/AP4-Colourful-Theme/main/
