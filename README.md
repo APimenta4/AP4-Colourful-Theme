@@ -1,11 +1,22 @@
 # AP4 Colourful Theme
 
-![icon](icon.png)
+Available on the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=ap4.ap4-colourful-theme).
 
-GitHub repository to maintain my own VS Code theme.
+<img src="icon.png" width="150" alt="icon" style="border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 
-Mostly for personal usage, however, feel free to download and use it in your own VSCode setup.
+An alternative to VSCode's default Dark theme.
 
-For an easier time installing the theme, [install it through the VSCode Marketplace extension](https://marketplace.visualstudio.com/items?itemName=ap4.ap4-colourful-theme).
+While easy on the eyes like the original, it is way more colourful in terms of syntax highlighting, which is what I personally prefer to help mentally visualize what is a variable/object/class/method/keyword in the code.
 
-Optimized for Python/TypeScript
+
+Works very well for Python, Javacript, Typescript and Golang. Other languages are also well supported, but may need some tweaks on some special syntax and keywords.
+
+## Demos
+
+Check out how the theme looks with different languages:
+
+- **Go**: ![Go](demos/go/go.png)
+- **JavaScript**: ![JS](demos/js/js.png)
+- **Python**: ![Python](demos/py/py.png)
+- **TypeScript**: ![TS](demos/ts/ts.png)
+- **TSX**: ![TSX](demos/tsx/tsx.png)
