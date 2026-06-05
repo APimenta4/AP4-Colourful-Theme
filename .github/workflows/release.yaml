@@ -9,10 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Publish to Open VSX Registry
+        uses: HaaLeo/publish-vscode-extension@v2
+        with:
+          pat: ${{ secrets.OPEN_VSX_TOKEN }}
+          baseContentUrl: https://raw.githubusercontent.com/APimenta4/AP4-Colourful-Theme/main/
+          baseImagesUrl: https://raw.githubusercontent.com/APimenta4/AP4-Colourful-Theme/main/
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
-          baseContentUrl: https://raw.githubusercontent.com/APimenta4/AP4-Colourful-Theme/main/
-          baseImagesUrl: https://raw.githubusercontent.com/APimenta4/AP4-Colourful-Theme/main/
