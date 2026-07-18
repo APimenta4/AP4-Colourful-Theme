@@ -3291,6 +3291,41 @@
         "foreground": "#FFD17C",
         "fontStyle": "underline"
       }
+    },
+    {
+      "scope": "support.function",
+      "settings": {
+        "foreground": "#FFA600"
+      }
+    },
+    {
+      "scope": "source.sql, constant.other.table-name.sql, constant.other.database-name.sql, string.quoted.double.sql, punctuation.definition.string.begin.sql, punctuation.definition.string.end.sql",
+      "settings": {
+        "foreground": "#d5d5d5"
+      }
+    },
+    {
+      "scope": "constant.other.php, constant.other.class.php, support.constant.core.php, constant.enum.php",
+      "settings": {
+        "foreground": "#FFD17C"
+      }
+    },
+    {
+      "scope": [
+        "meta.decorator.ts",
+        "meta.decorator.ts entity.name.function.ts",
+        "punctuation.decorator.ts"
+      ],
+      "settings": {
+        "foreground": "#FF7300"
+      }
+    },
+    {
+      "scope": "keyword.operator.arithmetic",
+      "settings": {
+        "foreground": "#FF7300",
+        "fontStyle": "bold"
+      }
     }
   ],
   "semanticHighlighting": true,
