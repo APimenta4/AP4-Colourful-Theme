@@ -1,7 +1,6 @@
 on:
-  push:
-    tags:
-      - "*"
+  release:
+    types: [released]
 
 name: Release Extension
 jobs:
